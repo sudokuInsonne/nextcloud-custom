@@ -22,8 +22,8 @@ jobs:
 
       - name: Build image
         run: |
-          docker build -t ghcr.io/${{ github.repository }}/nextcloud-custom:latest .
+          docker build -t ghcr.io/sudokuinsonne/nextcloud-custom:latest .
 
       - name: Push image
         run: |
-          docker push ghcr.io/${{ github.repository }}/nextcloud-custom:latest
+          docker push ghcr.io/sudokuinsonne/nextcloud-custom:latest
